@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-instanatoeventmanager",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./instanatoeventmanager_request.js"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
