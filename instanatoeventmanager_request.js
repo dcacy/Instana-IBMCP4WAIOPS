@@ -2,13 +2,13 @@
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 var request = require("request");
 //////parameters///////
-const instanaHost = "INSTANAHOSTNAME";
-const instanaToken = "INSTANATOKEN";
+const instanaHost = "169.55.198.124";
+const instanaToken = "op5aq8L1RGmDi6VuFsYE_w";
 const eventManagerHost =
-  "EVENTMANAGERHOSTNAME";
+  "netcool-evtmanager.ta22-aiops-bisque-b3bq-64b8809ea4bdf3ac103ec2bdb80f1d21-0000.us-south.containers.appdomain.cloud";
 const eventManagerTokenName =
-  "EVENTMANAGERTOKENNAME";
-const eventManagerTokenSecret = "EVENTMANAGERTOKENSECRET";
+  "cfd95b7e-3bc7-4006-a4a8-a73a79c71255/qevbitnevqev";
+const eventManagerTokenSecret = "7BTRxBSq99n4/gH7kUwCbAR/iebMuvDb";
 const intervalSeconds = 300;
 /////end parameters/////
 
